@@ -32,7 +32,7 @@ def trans_matrix_for_policy(policy):
     for s in range(n_states):
         probs = env.P[s][policy[s]]
         for el in probs:
-            transitions[s, el[1]] = el[0]
+            transitions[s, el[1]] += el[0]
     return transitions
 
 
