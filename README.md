@@ -14,8 +14,3 @@ Later exercises will use openai gym (https://gym.openai.com/):
 ```bash
 python3 -m pip install gym --user
 ```
-
-And tensorflow2 for Deep Reinforcement Learning (https://www.tensorflow.org/):
-```bash
-python3 -m pip install tensorflow --user
-```
